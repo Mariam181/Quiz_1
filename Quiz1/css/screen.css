@@ -1,0 +1,35 @@
+h1 {
+  color: blue; }
+
+.content {
+  max-width: 355px;
+  height: 180px;
+  background-color: aqua;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.img img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left; }
+
+.title p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 240px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  float: left; }
+
+/*# sourceMappingURL=screen.css.map */

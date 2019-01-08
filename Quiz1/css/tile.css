@@ -1,14 +1,13 @@
-h1 {
-  color: blue; }
-
 .content {
-  max-width: 355px;
+  width: 355px;
   height: 180px;
-  background-color: aqua;
+  background-color: #ffffff;
   padding-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  border: 1px solid #ccc;
+  border-top: 5px solid black; }
 
 .clearfix::after {
   content: "";
@@ -30,6 +29,23 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   color: #333;
+  float: left;
+  margin-bottom: 15px; }
+
+.text p {
+  width: 240px;
+  height: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 0;
   float: left; }
+
+.button button {
+  width: 325px;
+  height: 35px;
+  text-transform: uppercase;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=tile.css.map */
